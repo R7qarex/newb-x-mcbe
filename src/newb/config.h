@@ -50,8 +50,8 @@
 
 /* Sun/moon light color */
 #define NL_DAWN_SUNLIGHT_COL   vec3(1.0,0.4,0.1)
-#define NL_NOON_SUNLIGHT_COL   vec3(1.0,0.75,0.57)
-#define NL_NIGHT_MOONLIGHT_COL vec3(0.01,0.03,0.2)
+#define NL_NOON_SUNLIGHT_COL   vec3(0.9,0.9,1.1)
+#define NL_NIGHT_MOONLIGHT_COL vec3(0.8,0.5,0.9)
 
 /* Torch colors */
 #define NL_OVERWORLD_TORCH_COL  vec3(1.0,0.52,0.18)
@@ -74,8 +74,8 @@
 #define NL_DAWN_ZENITH_COL   vec3(0.1,0.4,0.7)
 #define NL_DAWN_HORIZON_COL  vec3(3.0,0.4,0.4)
 #define NL_DAWN_EDGE_COL     vec3(2.0,0.8,0.8)
-#define NL_DAY_ZENITH_COL    vec3(0.3,0.9,2.0)
-#define NL_DAY_HORIZON_COL   vec3(1.0,1.6,1.8)
+#define NL_DAY_ZENITH_COL    vec3(0.2,0.7,2.5)
+#define NL_DAY_HORIZON_COL   vec3(0.6,1.2,2.2)
 #define NL_DAY_EDGE_COL      vec3(1.44,1.56,1.62)
 #define NL_NIGHT_ZENITH_COL  vec3(0.008,0.048,0.08)
 #define NL_NIGHT_HORIZON_COL vec3(0.02,0.06,0.1)
@@ -107,7 +107,7 @@
 
 /* Water */
 #define NL_WATER_TRANSPARENCY 0.6 // 0.0 transparent ~ 1.0 normal
-#define NL_WATER_BUMP 0.05        // 0.001 plain ~ 0.2 bumpy water
+#define NL_WATER_BUMP 0.03        // 0.001 plain ~ 0.2 bumpy water
 #define NL_WATER_WAVE_SPEED  0.8  // 0.2 calm ~ 2.0 turbulent
 #define NL_WATER_TEX_OPACITY 0.3  // 0.0 plain water ~ 1.0 vanilla water texture
 #define NL_WATER_WAVE             // [toggle] wave effect
